@@ -1,0 +1,23 @@
+@import "../sass/mixin.scss";
+@import "../sass/variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-geometria;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color: #8e80a9;
+  background-color: #ffffff;
+}
+
+ul {
+  @include list-style();
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
