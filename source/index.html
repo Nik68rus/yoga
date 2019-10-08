@@ -10,18 +10,18 @@
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-  <header>
-    <div class="header__line">
-      <button>Меню</button>
+  <header class="page-header">
+    <div class="page-header__line">
+      <button class="page-header__button page-header__button--menu">Меню</button>
       <a href="tel:+78126901010">8 (812) 690-10-10</a>
     </div>
-    <p>Почувствуй расслабление в своем теле</p>
-    <p>Yoga</p>
-    <div>
-      <button>Подробнее</button>
+    <p class="page-header__mission">Почувствуй расслабление в своем теле</p>
+    <p class="page-header__heading">Yoga</p>
+    <div class="page-header__trial">
+      <button class="page-header__button page-header__button--trial">Подробнее</button>
       <p>Запишись на бесплатное пробное занятие</p>
     </div>
-    <div class="header-line">
+    <div class="page-header__line page-header__line--big-res">
       <ul>
         <li><a href="#">Вконтакте</a></li>
         <li><a href="#">Твиттер</a></li>
@@ -37,15 +37,17 @@
 
       <article class="lesson lesson--main">
         <img class="lesson__picture" src="img/hatha-mobile@1x.jpg" alt="Хатха-йога">
-        <div class="lesson__details">
-          <h3 class="lesson__name">Хатха-йога</h3>
-          <div class="lesson__schedule">
-            <p>Пн, Ср, Пт - с 12:00 до 15:00</p>
-            <p>Вт, Чт - с 18:00 до 21:00</p>
-          </div>
-          <div class="lesson__couch">
-            <span>Инструктор</span>
-            <span>Емельянова Полина</span>
+        <div class="lesson__details-wrapper">
+          <div class="lesson__details">
+            <h3 class="lesson__name">Хатха-йога</h3>
+            <div class="lesson__schedule">
+              <p>Пн, Ср, Пт - с 12:00 до 15:00</p>
+              <p>Вт, Чт - с 18:00 до 21:00</p>
+            </div>
+            <div class="lesson__couch">
+              <span>Инструктор</span>
+              <span>Емельянова Полина</span>
+            </div>
           </div>
           <button class="lesson__button">Подробнее</button>
         </div>

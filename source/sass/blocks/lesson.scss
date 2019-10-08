@@ -1,4 +1,38 @@
+.lesson {
+  display: flex;
+  flex-direction: column;
+}
+
 .lesson img {
-  width: 250px;
+  width: 100%;
   height: auto;
+}
+
+.lesson__details-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson__details {
+  padding: 20px;
+}
+
+.lesson button {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  padding-left: 43px;
+  cursor: pointer;
+  background-color: #8e80a9;
+  border: none;
+}
+
+.lesson h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.lesson__details div {
+  margin: 0;
+  padding: 0;
 }

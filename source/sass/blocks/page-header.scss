@@ -1,0 +1,113 @@
+@import "../sass/variables.scss";
+@import "../sass/mixin.scss";
+
+.page-header {
+  @include container();
+  padding-top: 15px;
+  padding-bottom: 108px;
+  width: 100%;
+  min-height: 336px;
+  background-image: url("../img/main-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: 100% auto;
+}
+
+.page-header a {
+  text-decoration: none;
+  color: #8b7eac;
+}
+
+.page-header__button {
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  padding-left: 30px;
+  cursor: pointer;
+  background-color: #e65c7b;
+  border: none;
+}
+
+.page-header__button--menu {
+  background-color: transparent;
+  padding-top: 7px;
+  padding-bottom: 6px;
+  position: relative;
+}
+
+.page-header__button--menu::before {
+  @include pseudo(30px, 8px);
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  border-top: 1px solid #8e80a9;
+  border-bottom: 1px solid #8e80a9;
+}
+
+.page-header__button--menu::after {
+  @include pseudo(20px, 6px);
+  box-sizing: border-box;
+  left: 0;
+  bottom: 0;
+  border-bottom: 1px solid #8e80a9;
+}
+
+.page-header__button--trial {
+  position: relative;
+  padding-top: 26px;
+}
+
+.page-header__button--trial::before {
+  @include pseudo(6px, 6px);
+  left: 10px;
+  top: 10px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  transform: rotate(45deg);
+
+}
+
+.page-header__line {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  padding-bottom: 65px;
+}
+
+.page-header__line--big-res {
+  display: none;
+}
+
+.page-header__mission {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-family: $font-caveat;
+  font-size: 18px;
+  text-align: center;
+}
+
+.page-header__heading {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 67px;
+  line-height: 1;
+  letter-spacing: 0.26em;
+  text-align: center;
+}
+
+.page-header__trial {
+  display: flex;
+  padding: 0 58px;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.page-header__trial p {
+  color: #e65c7b;
+  margin: 0;
+  padding: 0 7px;
+}

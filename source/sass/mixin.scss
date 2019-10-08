@@ -3,3 +3,18 @@
   margin: $mg;
   list-style: $ls;
 }
+
+@mixin container () {
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@mixin pseudo($width, $height) {
+  position: absolute;
+  content: "";
+  width: $width;
+  height: $height;
+}
