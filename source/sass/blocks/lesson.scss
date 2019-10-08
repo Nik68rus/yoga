@@ -1,6 +1,8 @@
 .lesson {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
 .lesson img {
@@ -32,7 +34,18 @@
   padding: 0;
 }
 
+.lesson p {
+  margin: 0;
+  padding: 0;
+}
+
 .lesson__details div {
   margin: 0;
   padding: 0;
+}
+
+.lesson__couch {
+  color: #e65c7b;
+  display: flex;
+  flex-direction: column;
 }
