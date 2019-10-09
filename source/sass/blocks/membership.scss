@@ -1,0 +1,22 @@
+.membership {
+  @include container();
+  padding: 30px 35px;
+  background-image: url("../img/membership-clouds-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.membership h2 {
+  padding-bottom: 40px;
+}
+
+.membership__menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.membership span {
+  color: #e65c7b;
+  font-size: 12px;
+}

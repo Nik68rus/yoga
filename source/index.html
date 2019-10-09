@@ -33,7 +33,7 @@
   <main>
     <h1 class="visually-hidden">Студия Йоги</h1>
     <section class="list">
-      <h2>Направления</h2>
+      <h2 class="heading">Направления</h2>
 
       <article class="lesson lesson--main">
         <img class="lesson__picture" src="img/hatha-mobile@1x.jpg" alt="Хатха-йога">
@@ -91,53 +91,74 @@
 
     </section>
     <section class="membership">
-      <h2>Абонементы</h2>
+      <h2 class="heading">Абонементы</h2>
       <ul class="membership__menu">
-        <li>1 месяц</li>
-        <li>6 месяцев</li>
-        <li>12 месяцев</li>
+        <li>
+          <label class="membership__radio">
+            <input class="visually-hidden membership__radio-input" type="radio" name="size" value="s">
+            <span class="membership__radio-label">1 месяц</span>
+          </label>
+        </li>
+        <li>
+          <label class="membership__radio">
+            <input class="visually-hidden membership__radio-input" type="radio" name="size" value="s">
+            <span class="membership__radio-label">6 месяцев</span>
+          </label>
+        </li>
+        <li>
+         <label class="membership__radio">
+            <input class="visually-hidden membership__radio-input" type="radio" name="size" value="s">
+            <span class="membership__radio-label">12 месяцев</span>
+          </label>
+        </li>
       </ul>
       <div class="membership__list">
 
-        <article class="membership__card">
+        <article class="card">
           <h3>Утро</h3>
-          <p>Посещение с 11:00 до 16:00</p>
-          <p>1 300 Р</p>
-          <a href="buy.html">Заказать абонемент</a>
+          <p class="card__time">Посещение с&nbsp;11:00 до&nbsp;16:00</p>
+          <p class="card__price">1 300 Р</p>
+          <a class="button" href="buy.html">Заказать абонемент</a>
         </article>
 
-        <article class="membership__card">
+        <article class="card">
           <h3>Безлимит</h3>
-          <p>Посещение не ограничено по времени</p>
-          <p>2 800 Р</p>
-          <a href="buy.html">Заказать абонемент</a>
+          <p class="card__time">Посещение не ограничено по времени</p>
+          <p class="card__price">2 800 Р</p>
+          <a class="button" href="buy.html">Заказать абонемент</a>
         </article>
 
-        <article class="membership__card">
+        <article class="card">
           <h3>Вечер</h3>
-          <p>Посещение с 17:00 до 21:00</p>
-          <p>2 000 Р</p>
-          <a href="buy.html">Заказать абонемент</a>
+          <p class="card__time">Посещение с 17:00 до 21:00</p>
+          <p class="card__price">2 000 Р</p>
+          <a class="button" href="buy.html">Заказать абонемент</a>
         </article>
 
       </div>
     </section>
     <section class="team">
-      <h2>Наша команда</h2>
+      <h2 class="heading">Наша команда</h2>
       <button>Назад</button>
       <div>
-        <article>
+        <article class="couch">
           <img src="img/popov-mobile@1x.jpg" alt="Серёжа Попов">
-          <p>Инструктор Серёжа Попов</p>
-          <p>Хатха-йога</p>
-          <ul>
-            <li><a href="#">Вконтакте</a></li>
-            <li><a href="#">Твиттер</a></li>
-          </ul>
-          <button>Смотреть</button>
+          <div class="couch__info">
+            <div>
+              <p>Инструктор Серёжа Попов</p>
+              <p>Хатха-йога</p>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#">Вконтакте</a></li>
+                <li><a href="#">Твиттер</a></li>
+              </ul>
+              <button>Смотреть</button>
+            </div>
+          </div>
         </article>
 
-        <article>
+        <article class="couch">
           <img src="img/popov-mobile@1x.jpg" alt="Серёжа Попов">
           <p>Инструктор Серёжа Попов</p>
           <p>Флоу-йога</p>
@@ -148,7 +169,7 @@
           <button>Смотреть</button>
         </article>
 
-        <article>
+        <article class="couch">
           <img src="img/popov-mobile@1x.jpg" alt="Серёжа Попов">
           <p>Инструктор Серёжа Попов</p>
           <p>Йога в гамаках</p>
@@ -171,7 +192,7 @@
       </div>
     </section>
     <section class="feedback">
-      <h2>Отзывы</h2>
+      <h2 class="heading">Отзывы</h2>
       <div>
         <article>
           <div>
@@ -216,7 +237,7 @@
     </section>
     <section class="trial">
       <form action="" method="POST">
-        <h2>Запишитесь на бесплатное пробное занятие</h2>
+        <h2 class="heading">Запишитесь на бесплатное пробное занятие</h2>
         <input type="text" placeholder="Ваше имя">
         <input type="text" placeholder="Ваш телефон">
         <button type="sunmit">Оставить заявку</button>

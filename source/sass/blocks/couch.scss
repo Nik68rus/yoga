@@ -1,0 +1,23 @@
+.couch {
+  display: flex;
+  background-color: white;
+}
+
+.couch:not(:first-of-type) {
+  display: none;
+}
+
+.couch button {
+  display: none;
+}
+
+.couch__info {
+  box-sizing: border-box;
+  display: flex;
+  padding: 20px;
+}
+
+.couch__info p {
+  padding: 0;
+  margin: 0;
+}

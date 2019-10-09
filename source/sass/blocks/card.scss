@@ -1,0 +1,35 @@
+.card {
+  background-color: white;
+  padding: 30px 50px;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card p {
+  padding: 0;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.card__time {
+  margin: 0;
+  font-size: 10px;
+  color: #e65c7b;
+  margin-bottom: 20px;
+}
+
+.card__price {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
