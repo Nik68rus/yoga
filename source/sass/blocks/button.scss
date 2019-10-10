@@ -1,9 +1,17 @@
 .button {
   display: block;
   text-align: center;
-  padding: 14px 23px;
+  padding: 14px 20px;
   background-color: #8e80a9;
   color: white;
   text-decoration: none;
   font-size: 10px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #8e80a9;
+  border-width: 1px;
+}
+
+.button--arrow-disabled {
+  background-color: transparent;
 }

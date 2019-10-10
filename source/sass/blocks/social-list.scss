@@ -1,0 +1,14 @@
+.social-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social-list--feedback {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.social-list__link {
+  font-size: 0;
+}

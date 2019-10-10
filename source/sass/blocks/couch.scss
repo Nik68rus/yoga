@@ -1,23 +1,62 @@
-.couch {
+.couch__card {
   display: flex;
+  align-items: center;
   background-color: white;
+  box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
+  margin-bottom: 25px;
 }
 
-.couch:not(:first-of-type) {
+.couch__card:not(:first-of-type) {
   display: none;
 }
 
-.couch button {
+.couch__card button {
   display: none;
 }
 
 .couch__info {
+  flex-grow: 1;
   box-sizing: border-box;
+  justify-content: space-between;
   display: flex;
-  padding: 20px;
+  padding: 11px 15px;
 }
 
-.couch__info p {
+.couch__name {
+  color: #e65c7b;
   padding: 0;
   margin: 0;
+  margin-bottom: 15px;
+}
+
+.couch__specification {
+  margin: 0;
+  padding: 0;
+}
+
+.couch__buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.couch__details h3 {
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+.couch__details p:first-of-type {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  color: #e65c7b;
+}
+
+.couch__details p:not(:first-of-type) {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.couch__details p:last-of-type {
+  margin-bottom: 0;
 }

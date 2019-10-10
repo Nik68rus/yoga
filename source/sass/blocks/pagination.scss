@@ -1,0 +1,34 @@
+.pagination {
+  display: flex;
+}
+
+.pagination__button {
+  font-size: 0;
+  padding: 5px 14px;
+}
+
+.pagination__button--disabled {
+  background-color: transparent;
+}
+
+.pagination__button--disabled path {
+  stroke: #8e80a9;
+}
+
+.pagination--team .pagination__button {
+  position: absolute;
+  top: 125px;
+  padding: 12px 6px;
+}
+
+.pagination--team div {
+  display: none;
+}
+
+.pagination--team .pagination__button--prev {
+  left: 15px;
+}
+
+.pagination--team .pagination__button--next {
+  right: 15px;
+}

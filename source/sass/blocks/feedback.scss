@@ -1,0 +1,57 @@
+.feedback {
+  @include container();
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback__card:not(:first-of-type) {
+  display: none;
+}
+
+.feedback__card {
+  position: relative;
+  background-color: white;
+  box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.feedback__card::before {
+  @include pseudo(27px,23px);
+  position: absolute;
+  left: 15px;
+  top: 20px;
+  background-image: url("../img/quotes.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.feedback__card p {
+  padding: 0;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.feedback__author {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__author div {
+  flex-grow: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.feedback__author p {
+  padding-bottom: 5px;
+}
+
+.feedback__author-name {
+  color: rgba(230, 92, 123, 0.7);
+}
