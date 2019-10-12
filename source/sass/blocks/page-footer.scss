@@ -1,0 +1,24 @@
+.page-footer {
+    @include container();
+    padding: 35px 50px;
+    background-color: #8373a1;
+}
+
+.page-footer p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.page-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-footer__copyright {
+    opacity: 0.5;
+}
+
+.page-footer__link {
+    opacity: 0.5;
+}

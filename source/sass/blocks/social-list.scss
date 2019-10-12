@@ -9,6 +9,11 @@
   justify-content: flex-start;
 }
 
+.social-list--footer {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .social-list__link {
   font-size: 0;
 }
